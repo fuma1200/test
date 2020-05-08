@@ -1,3 +1,8 @@
+a{
+    text-decoration: none;
+    color: white
+}
+
 body{
     margin: 0;
    padding: 0;
@@ -12,12 +17,11 @@ li {
 
 header{
     background-color: rgb(42, 42, 42);
-    height: 70px;
+    height: 60px;
     width: 100%;
     z-index: 10;
-    position: relative;
-    top:-15px;
-    margin-bottom: 300px
+    position: fixed;
+    z-index: 10;
     
     
 }
@@ -43,7 +47,7 @@ header{
 
 .header-right{
     position: relative;
-    top:-33px;
+    top:-38px;
     right:15px;
 
 }
@@ -66,20 +70,54 @@ header{
 
 .top{
 
+    margin-bottom: 0px;
 }
 
 .top-img{
     text-align: center;
     margin: 0 auto;
-    height:300px ;
-    width:99.9%;
+    height:700px ;
+    width:100% ;
     object-fit: cover;
     border:1px solid rgba(186, 186, 186,0.5);
-    opacity: ;
     position: relative;
-    border: 1px solid
+    top:48px;
+    margin-bottom: 200px;    
     
-    
+}
+
+
+
+.back h1{
+    position: relative;
+    top:-900px;
+    margin-bottom: -900px;
+    left:100px;
+    color: white;
+    font-size: 150px;
+    opacity: 0.8;
+}
+
+.km{
+    position: relative;
+    margin-top:-500px ;
+    left:100px;
+    color: white;
+    font-size: 300px;
+    font-weight: bold;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.we{
+    position: relative;
+
+    left:150px;
+    color: white;
+    font-size: 130px;
+    font-weight: bold;
+    opacity: 0.8;
+    display: inline-block;
 }
 
 
@@ -187,4 +225,10 @@ header{
     padding: 5px;
     width: 250px;
     color:white;      
+}
+
+.jump{
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
 }

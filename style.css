@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+   padding: 0;
+    background-color: rgb(209,209,209);
+    background:linear-gradient(90deg, rgba(209,209,209,1) 0%, rgba(209,209,209,1) 30%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(209,209,209,1) 70%, rgba(209,209,209,1) 100%); 
+}
+
+
+
+li {
+    list-style: none;}
+
+header{
+    background-color: rgb(42, 42, 42);
+    height: 70px;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    top:-15px;
+    margin-bottom: 300px
+    
+    
+}
+
+.container{
+       margin: 0 auto;
+
+    
+    
+    
+    
+}
+.header-left{
+   text-align: center
+}
+
+.logo{
+    height: 35px;
+    margin-top:5px;
+    
+}
+
+
+.header-right{
+    position: relative;
+    top:-33px;
+    right:15px;
+
+}
+
+.menu ul{
+    color:white;
+    text-align: center
+    
+}
+
+
+.menu li{
+    display: inline-block;
+    padding: 0 60px;
+    line-height: 50px;  
+    font-size:17px
+    
+    
+}
+
+.top{
+
+}
+
+.top-img{
+    text-align: center;
+    margin: 0 auto;
+    height:300px ;
+    width:99.9%;
+    object-fit: cover;
+    border:1px solid rgba(186, 186, 186,0.5);
+    opacity: ;
+    position: relative;
+    border: 1px solid
+    
+    
+}
+
+
+.title{
+    text-align: center;
+    margin: 0 auto;
+    font-size:50px;
+    color: rgb(255, 255, 255);
+
+    
+    width: 10%;
+    height: 50px;
+    
+    position: relative;
+    
+    
+    z-index: 5;
+    
+}
+
+.text{
+    margin: 10px 600px 200px;
+    padding:0px 20px 100px  ;
+    border: 5px solid rgb(42, 42, 42);
+    border-top: 80px solid rgb(42, 42, 42); 
+    border-radius: 8px;
+    position: relative;
+    top:-60px
+}
+
+.text h1{
+    font-size:40px;
+    font-weight:normal;
+}
+
+.twitter{
+    color: #00a7ff;
+    position: relative;
+    top: 100px;
+    right:0px;
+    
+}
+
+
+
+.text img{
+    width: 300px;
+    float: right;
+    display: inline-block;
+    position:relative;
+    top:-50px;
+    margin-bottom:100px ;}
+
+.work_img {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px 0;
+    
+    border: 5px solid rgb(42, 42, 42);
+    border-top: 80px solid rgb(42, 42, 42); 
+    border-radius: 8px;
+    position: relative;
+    top:-60px
+    
+    
+}
+
+.work_img img{
+    width: 300px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.contact-wrapper{
+    position: relative;
+    top: 150px
+}
+
+.message{
+    width: 700px;
+    text-align: center;
+    margin: 130px auto ;
+    
+    
+    
+    border: 5px solid rgb(42, 42, 42);
+    border-top: 80px solid rgb(42, 42, 42); 
+    border-radius: 8px;
+    position: relative;
+    top:-190px
+}
+
+.message p{
+    text-align: center;
+    margin-top:10px ;
+    font-size: 22px;
+}
+
+.message a{
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    background-color: rgba(118, 118, 118, 0.9);
+    padding: 5px;
+    width: 250px;
+    color:white;      
+}

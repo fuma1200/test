@@ -1,0 +1,45 @@
+@media(max-width: 1250px){
+    
+    
+    .back p{
+        padding-top:30px ;
+    }
+    
+    #p1{
+        font-size: 800%;
+        letter-spacing: -10px;
+    }
+    
+    #p2{
+        font-size: 1000%;
+        letter-spacing: -15px;
+
+    }
+
+    #p3{
+        font-size: 800%;
+        letter-spacing: -6px;
+    
+}
+    
+    @media(max-width: 950px){
+
+
+        .back p{
+            padding-top:30px ;
+        }
+
+        #p1{
+            font-size: 750%;
+            letter-spacing: -7px;
+        }
+
+        #p2{
+            font-size: 950%;
+            letter-spacing: -10px;
+
+        }
+
+        #p3{
+            font-size: 530%;
+            letter-spacing: -px;

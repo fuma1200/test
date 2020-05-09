@@ -13,6 +13,7 @@
     
     .logo{
         margin-top:12px;
+
     }
     
     .menu ul{
@@ -22,7 +23,7 @@
     .menu-icon{
         display: inline;
         position: absolute;
-        top: -2px;
+        top: -px;
         right: 5px;
     }
     
@@ -121,31 +122,11 @@
         top:-130px;
     }
     
-    .menu-m{
-        float:right;
-        font-size:20px;
-        position: relative;
-        top: 43px;
-        right: -20px;
-        text-align: left;
-        background-color: rgba(42, 42, 42,0.8);
-        
-        letter-spacing: 2px;
-        line-height: 40px
-            
-    }
+
  
-    .menu-m li{
-        border: 1px solid rgba(255, 255, 255, 0.32);
-        padding-right:10px ;
-        padding-left:10px ;
-        display: none;
-    }
+
     
-    .test:focus{
-        display: none;
-        
-    }
+
     
 }
     

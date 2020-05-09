@@ -1,0 +1,151 @@
+@media(max-width: 805px){
+    
+    
+    
+    body{
+        background:linear-gradient(90deg, rgba(209,209,209,1) 0%, rgba(209,209,209,1) 5%, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 95%, rgba(209,209,209,1) 95%, rgba(209,209,209,1) 100%); 
+        
+    }
+    
+    .container{
+
+    }
+    
+    .logo{
+        margin-top:12px;
+    }
+    
+    .menu ul{
+        display: none;
+    }
+    
+    .menu-icon{
+        display: inline;
+        position: absolute;
+        top: -2px;
+        right: 5px;
+    }
+    
+    .top-img{
+        height: 200px;
+    }
+    
+    .back p{
+        display: none;
+    }
+ 
+    .top_m {
+        display: block;
+        color: white;
+        font-size:50px;
+        position: relative;
+        top:-150px;
+        margin-bottom:-200px ;
+        margin-top:-80px ;
+        left: 18px;
+        line-height: 130px;
+        font-weight:600;
+    }
+    
+ 
+    .title{
+        max-width: 500px;
+    }
+    
+    
+    
+    .text img{
+        float: none;
+        display: inline-block;
+        width: 50%;
+        margin-bottom:-50px ;
+        
+    }
+    
+    .text {
+        margin: 0;
+        padding: 0;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        box-sizing: border-box;
+        
+        border: 5px solid rgb(42, 42, 42);
+        border-top: 80px solid rgb(42, 42, 42); 
+        border-radius: 8px;
+
+    }
+    .text h1{
+        font-size:150%;
+    }
+    
+    .text p{
+        font-size:90%;
+        
+    }
+    
+    .text h1{
+        margin: 10px 50px 50px;
+        
+    }
+    
+    .twitter{
+        position: relative;
+        top: -10px
+    }
+    
+    .work_img{
+        margin: 0;
+        padding: 0;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    .work_img img{
+        width: 80%;
+    }
+    
+    .message{
+        margin: 0;
+        padding: 0;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    .cont_t{
+        position: relative;
+        top:-130px;
+    }
+    
+    .menu-m{
+        float:right;
+        font-size:20px;
+        position: relative;
+        top: 43px;
+        right: -20px;
+        text-align: left;
+        background-color: rgba(42, 42, 42,0.8);
+        
+        letter-spacing: 2px;
+        line-height: 40px
+            
+    }
+ 
+    .menu-m li{
+        border: 1px solid rgba(255, 255, 255, 0.32);
+        padding-right:10px ;
+        padding-left:10px ;
+        display: none;
+    }
+    
+    .test:focus{
+        display: none;
+        
+    }
+    
+}
+    

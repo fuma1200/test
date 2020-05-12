@@ -90,10 +90,10 @@ header{
 
 
 .back p{
+    width:100%;
     position: relative;
     top:-780px;
     margin-bottom: -900px;
-    left:50px;
     color: white;
     opacity: 0.8;
     font-family:'Bookman Old Style',serif;
